@@ -10,6 +10,7 @@ Each sample contains the following information:
 - stream_id
 - viewer_count: the number of viewers in real time
 - historical_viewer_count: the total number of viewers who have watched the streams by the streamer
+- type of the user: partner, affiliate
 
 The mapping from game_id to the title of the game is provided in GameTitle.txt.
 The python code for collecting the dataset is provided in AutoCollection.py.
